@@ -1,7 +1,5 @@
 vim.g.mapleader = " "
 
--- Nvim Tree
-vim.keymap.set("n", "<leader>pv", ":NvimTreeToggle<CR>")
 
 -- Window Navigation
 vim.keymap.set("n", "<C-h>", "<C-w>h")
