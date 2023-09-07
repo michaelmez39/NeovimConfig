@@ -52,4 +52,6 @@ return require('packer').startup(function(use)
           -- refer to the configuration section below},
         }
     }
+    use 'lewis6991/gitsigns.nvim' -- OPTIONAL: for git status
+    use 'romgrk/barbar.nvim'
 end)
